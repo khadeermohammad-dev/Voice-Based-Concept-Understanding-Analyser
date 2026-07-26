@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables & secrets (CRITICAL - DO NOT UPLOAD)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+backend/venv/
+05_Project_Development/backend/venv/
+
+# Node.js / Frontend dependencies & builds
+node_modules/
+frontend/node_modules/
+05_Project_Development/frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+
+# Streamlit & Local cache
+.streamlit/secrets.toml
+.pytest_cache/
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Application generated temporary files & pdf outputs
+*.pdf
+05_Project_Development/backend/reports/evaluation_report*.pdf
+05_Project_Development/backend/uploads/*
+!05_Project_Development/backend/uploads/.gitkeep
